@@ -42,16 +42,43 @@
     border-radius: 0 0 10px 10px;
 }
 
+/* INIZIO TASTI */
 .square {
     width: 70px;
     height: 70px;
-    background-color: gold;
     margin: 5px;
 }
 
 .square-basis {
     flex-basis: 150px;
 }
+
+.b-gray {
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(177, 177, 177);
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.b-orange {
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(255, 149, 27);
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.outset {
+    border-style: outset;
+    border-color: rgb(156, 156, 156);
+}
+
+/* FINE TASTI */
+
+
 /* CLASSI DI UTILITY */
 
 .justify-center {
@@ -92,6 +119,3 @@
     align-content: stretch;
 }
 
-/* .gap {
-    gap: 10px;
-} */
