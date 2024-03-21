@@ -27,6 +27,15 @@
     background-color: black;
     
 }
+
+.calculator {
+    width: 350px;
+    height: 350px;
+    background-color: lightgray;
+    border-radius: 0 0 10px 10px;
+}
+
+/* NUMERI SCHERMO */
 .zero {
     color: rgb(34, 246, 172);
     font-family:  "Lexend Peta", sans-serif;
@@ -35,12 +44,9 @@
     font-size: 50px;
     margin-right: 30px;
 }
-.calculator {
-    width: 350px;
-    height: 350px;
-    background-color: lightgray;
-    border-radius: 0 0 10px 10px;
-}
+/* FINE NUMERI SCHERMO */
+
+
 
 /* INIZIO TASTI */
 .square {
