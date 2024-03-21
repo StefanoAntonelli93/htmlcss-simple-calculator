@@ -30,8 +30,7 @@
 }
 
 .numbers {
-    width: 350px;
-    height: 350px;
+    width: 350px; 
     background-color: lightgray;
     background-image: linear-gradient(to left, rgb(236, 236, 236),rgb(187, 187, 187));
     border-radius: 0 0 10px 10px;
